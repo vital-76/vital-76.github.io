@@ -17,6 +17,7 @@ margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30%;
 }
 .logo{
     font-family: Roboto;
@@ -71,3 +72,153 @@ margin: auto;
     /* заполнение */
     object-fit: cover;
 }
+.main{
+
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+.title_en{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+    margin-bottom: 38px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 108px;
+}
+.movie_info{
+    display: flex;
+    align-items: center;
+}
+.tag{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    background: #FFFFFF;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+.country{
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 33px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.play::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 15px;
+}
+
+.more{
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    align-items: center;
+
+}
+.more::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 15px;
+    transform: rotate(90deg);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 3px;
+    color: #000;
+    padding: 40px 50px;
+}
+.short_info{
+
+}
+.poster{
+    display: block;
+    margin-top: -77px;
+    margin-bottom: 20px;
+}
+.button{
+    background: #FF8F27;
+    padding: 10px 44px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
+.actors_title{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.actors_list{
+    margin: 0;
+    font-size: 16px;
+    line-height: 150%;/* or 24px */
+    list-style: none;
+    padding-left: 15px;
+}
+.actors_list_item{
+    text-decoration-line: underline;
+}
+.fool_info{
+    flex: 0.97;
+}
+.menu{}
+.menu_item{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.menu_item_active{
+    color: #FF8F27;
+}
+.bookmark{
+    background: #FF8F27;
+}
+.fool_content{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs_content{
+    margin-right: 70px;
+}
+.text_title{}
+.text{}
+.subscribe{}
+.banner{}
